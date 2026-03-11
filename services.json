@@ -61,5 +61,23 @@
     "category": "게임",
     "emoji": "🐎",
     "ogImage": ""
+  },
+  {
+    "name": "Peridot",
+    "url": "",
+    "description": "OpenClaw AI Bot",
+    "status": "LIVE",
+    "category": "AI",
+    "emoji": "🐉",
+    "ogImage": ""
+  },
+  {
+    "name": "Garnet",
+    "url": "",
+    "description": "OpenClaw AI Bot",
+    "status": "LIVE",
+    "category": "AI",
+    "emoji": "💎",
+    "ogImage": ""
   }
 ]
