@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hugo Portfolio</title>
+    <meta name="description" content="Hugo가 만들고 운영 중인 서비스 포트폴리오" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="eyebrow">HUGO KIM</p>
+        <h1>서비스 포트폴리오</h1>
+        <p class="subtitle">지금 운영 중이거나 개발 중인 서비스들을 모아둔 페이지</p>
+      </header>
+
+      <section class="legend" aria-label="상태 범례">
+        <span class="badge live">LIVE</span>
+        <span class="badge wip">WIP</span>
+        <span class="badge check">CHECK</span>
+        <span class="badge private">PRIVATE</span>
+      </section>
+
+      <section id="cards" class="cards" aria-live="polite"></section>
+    </main>
+
+    <template id="card-template">
+      <article class="card">
+        <div class="image-wrap">
+          <img class="thumb" alt="" loading="lazy" />
+          <span class="status"></span>
+        </div>
+        <div class="content">
+          <p class="meta"></p>
+          <h2 class="name"></h2>
+          <p class="desc"></p>
+          <a class="link" target="_blank" rel="noopener noreferrer">서비스 열기</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>

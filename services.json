@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Stocker 대시보드",
+    "url": "https://stocker.hugokim.kr",
+    "description": "국내/해외 주식 모니터링 대시보드",
+    "status": "LIVE",
+    "category": "투자",
+    "emoji": "📈",
+    "ogImage": "https://stocker.hugokim.kr/og.png"
+  },
+  {
+    "name": "hgjdev 견적사이트",
+    "url": "https://hgjdev.hugokim.kr",
+    "description": "개발 진행 중인 견적/문의 서비스",
+    "status": "WIP",
+    "category": "비즈니스",
+    "emoji": "🧾",
+    "ogImage": ""
+  },
+  {
+    "name": "hugoair",
+    "url": "https://hugoair.hugokim.kr",
+    "description": "공기질 모니터링 대시보드 서비스",
+    "status": "LIVE",
+    "category": "IoT",
+    "emoji": "🌬️",
+    "ogImage": ""
+  },
+  {
+    "name": "cafe-tf",
+    "url": "https://cafe-tf.hugokim.kr",
+    "description": "투자 성향 테스트 서비스",
+    "status": "LIVE",
+    "category": "테스트",
+    "emoji": "☕",
+    "ogImage": ""
+  },
+  {
+    "name": "invti",
+    "url": "https://invti.hugokim.kr",
+    "description": "투자 성향 테스트(상태 확인 필요)",
+    "status": "CHECK",
+    "category": "테스트",
+    "emoji": "🧪",
+    "ogImage": ""
+  },
+  {
+    "name": "치지직 봇",
+    "url": "",
+    "description": "치지직 관련 자동화 봇",
+    "status": "PRIVATE",
+    "category": "봇",
+    "emoji": "🤖",
+    "ogImage": ""
+  },
+  {
+    "name": "우마무스메 로그라이크 대시보드",
+    "url": "",
+    "description": "우마무스메 로그라이크 기록/분석 대시보드",
+    "status": "PRIVATE",
+    "category": "게임",
+    "emoji": "🐎",
+    "ogImage": ""
+  }
+]
