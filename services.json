@@ -1,12 +1,12 @@
 [
   {
     "name": "Stocker 대시보드",
-    "url": "https://stocker.hugokim.kr",
-    "description": "국내/해외 주식 모니터링 대시보드",
-    "status": "LIVE",
+    "url": "",
+    "description": "개인 계좌 연동 데이터 포함 (비공개)",
+    "status": "PRIVATE",
     "category": "투자",
     "emoji": "📈",
-    "ogImage": "https://stocker.hugokim.kr/og.png"
+    "ogImage": ""
   },
   {
     "name": "hgjdev 견적사이트",
@@ -19,7 +19,7 @@
   },
   {
     "name": "hugoair",
-    "url": "https://hugoair.hugokim.kr",
+    "url": "https://air.hugokim.kr",
     "description": "공기질 모니터링 대시보드 서비스",
     "status": "LIVE",
     "category": "IoT",
@@ -28,7 +28,7 @@
   },
   {
     "name": "cafe-tf",
-    "url": "https://cafe-tf.hugokim.kr",
+    "url": "https://cafe.hugokim.kr/",
     "description": "투자 성향 테스트 서비스",
     "status": "LIVE",
     "category": "테스트",
@@ -38,8 +38,8 @@
   {
     "name": "invti",
     "url": "https://invti.hugokim.kr",
-    "description": "투자 성향 테스트(상태 확인 필요)",
-    "status": "CHECK",
+    "description": "투자 성향 테스트 서비스",
+    "status": "LIVE",
     "category": "테스트",
     "emoji": "🧪",
     "ogImage": ""
@@ -55,9 +55,9 @@
   },
   {
     "name": "우마무스메 로그라이크 대시보드",
-    "url": "",
+    "url": "https://uma.hugokim.kr",
     "description": "우마무스메 로그라이크 기록/분석 대시보드",
-    "status": "PRIVATE",
+    "status": "LIVE",
     "category": "게임",
     "emoji": "🐎",
     "ogImage": ""

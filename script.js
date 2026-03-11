@@ -41,8 +41,14 @@ function renderCard(service) {
   status.textContent = statusValue;
   status.classList.add(statusClassMap[statusValue] || 'check');
 
-  thumb.src = service.ogImage || placeholder(service.name, service.emoji);
+  const autoThumb = service.url
+    ? `https://image.thum.io/get/width/1200/crop/630/noanimate/${encodeURIComponent(service.url)}`
+    : '';
+  thumb.src = service.ogImage || autoThumb || placeholder(service.name, service.emoji);
   thumb.alt = `${service.name} 미리보기`;
+  thumb.onerror = () => {
+    thumb.src = placeholder(service.name, service.emoji);
+  };
 
   if (service.url) {
     link.href = service.url;

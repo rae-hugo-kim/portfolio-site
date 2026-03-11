@@ -20,7 +20,7 @@ python3 -m http.server 8787
 - `status`: `LIVE | WIP | CHECK | PRIVATE`
 - `category`: 카테고리
 - `emoji`: 카드 메타 이모지
-- `ogImage`: 썸네일 URL (없으면 자동 플레이스홀더)
+- `ogImage`: 썸네일 URL (없으면 thum.io 웹 미리보기 시도 후 실패 시 자동 플레이스홀더)
 
 ## Caddy 배포 예시
 
