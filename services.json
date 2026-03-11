@@ -63,6 +63,15 @@
     "ogImage": ""
   },
   {
+    "name": "Copybara",
+    "url": "",
+    "description": "AI기반 트레이딩 커뮤니티",
+    "status": "WIP",
+    "category": "커뮤니티",
+    "emoji": "🧠",
+    "ogImage": ""
+  },
+  {
     "name": "Peridot",
     "url": "",
     "description": "OpenClaw AI Bot",
