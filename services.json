@@ -18,6 +18,15 @@
     "ogImage": ""
   },
   {
+    "name": "hgjlite",
+    "url": "https://hgjdev.hugokim.kr/lite",
+    "description": "견적/문의 서비스 lite버전",
+    "status": "LIVE",
+    "category": "비즈니스",
+    "emoji": "⚡",
+    "ogImage": ""
+  },
+  {
     "name": "hugoair",
     "url": "https://air.hugokim.kr",
     "description": "공기질 모니터링 대시보드 서비스",
