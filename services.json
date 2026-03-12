@@ -15,7 +15,7 @@
     "status": "WIP",
     "category": "비즈니스",
     "emoji": "🧾",
-    "ogImage": ""
+    "ogImage": "https://hgjdev.hugokim.kr/opengraph-image?8cf3f524ddb209d4"
   },
   {
     "name": "hgjlite",
@@ -24,7 +24,7 @@
     "status": "LIVE",
     "category": "비즈니스",
     "emoji": "⚡",
-    "ogImage": ""
+    "ogImage": "https://hgjdev.hugokim.kr/lite/opengraph-image-x17q6o?560cac6d9c501c44"
   },
   {
     "name": "hugoair",
@@ -51,7 +51,7 @@
     "status": "LIVE",
     "category": "테스트",
     "emoji": "🧪",
-    "ogImage": ""
+    "ogImage": "https://invti.hugokim.kr/favicon.svg"
   },
   {
     "name": "치지직 봇",

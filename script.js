@@ -5,7 +5,7 @@ const statusClassMap = {
   PRIVATE: 'private',
 };
 
-function placeholder(name, emoji = '🧩') {
+function placeholder(name) {
   const svg = `
     <svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'>
       <defs>
@@ -15,7 +15,6 @@ function placeholder(name, emoji = '🧩') {
         </linearGradient>
       </defs>
       <rect width='100%' height='100%' fill='url(#g)'/>
-      <text x='60' y='130' fill='#93c5fd' font-size='72'>${emoji}</text>
       <text x='60' y='300' fill='white' font-size='70' font-family='sans-serif' font-weight='700'>${name}</text>
       <text x='60' y='390' fill='#bfdbfe' font-size='36' font-family='sans-serif'>Service Preview</text>
     </svg>`;
@@ -35,7 +34,7 @@ function renderCard(service) {
 
   name.textContent = service.name;
   desc.textContent = service.description;
-  meta.textContent = `${service.emoji || '🔹'} ${service.category || '기타'}`;
+  meta.textContent = service.category || '기타';
 
   const statusValue = (service.status || 'CHECK').toUpperCase();
   status.textContent = statusValue;
@@ -44,10 +43,10 @@ function renderCard(service) {
   const autoThumb = service.url
     ? `https://image.thum.io/get/width/1200/crop/630/noanimate/${encodeURIComponent(service.url)}`
     : '';
-  thumb.src = service.ogImage || autoThumb || placeholder(service.name, service.emoji);
+  thumb.src = service.ogImage || autoThumb || placeholder(service.name);
   thumb.alt = `${service.name} 미리보기`;
   thumb.onerror = () => {
-    thumb.src = placeholder(service.name, service.emoji);
+    thumb.src = placeholder(service.name);
   };
 
   if (service.url) {
