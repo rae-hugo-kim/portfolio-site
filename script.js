@@ -3,10 +3,11 @@ const statusClassMap = {
   WIP: 'wip',
   CHECK: 'check',
   PRIVATE: 'private',
+  ARCH: 'arch',
   EOL: 'eol',
 };
 
-const statusOrder = { LIVE: 0, WIP: 1, CHECK: 2, PRIVATE: 3, EOL: 4 };
+const statusOrder = { LIVE: 0, WIP: 1, CHECK: 2, PRIVATE: 3, ARCH: 4, EOL: 5 };
 
 function placeholder(name) {
   const svg = `
