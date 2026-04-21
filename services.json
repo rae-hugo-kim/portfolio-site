@@ -115,5 +115,14 @@
     "category": "커뮤니티",
     "emoji": "🧠",
     "ogImage": ""
+  },
+  {
+    "name": "My AI PM",
+    "url": "https://prdchat.hugokim.kr/",
+    "description": "간단한 인터뷰로 PRD를 생성",
+    "status": "EOL",
+    "category": "AI",
+    "emoji": "🚀",
+    "ogImage": "./images/myaipm.webp"
   }
 ]

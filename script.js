@@ -3,7 +3,10 @@ const statusClassMap = {
   WIP: 'wip',
   CHECK: 'check',
   PRIVATE: 'private',
+  EOL: 'eol',
 };
+
+const statusOrder = { LIVE: 0, WIP: 1, CHECK: 2, PRIVATE: 3, EOL: 4 };
 
 function placeholder(name) {
   const svg = `
@@ -69,6 +72,7 @@ async function init() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const services = await res.json();
+    services.sort((a, b) => (statusOrder[a.status] ?? 3) - (statusOrder[b.status] ?? 3));
     services.forEach((service) => root.appendChild(renderCard(service)));
   } catch (e) {
     root.innerHTML = `<p>서비스 목록을 불러오지 못했어: ${e.message}</p>`;
